@@ -2,6 +2,7 @@ name: Enrich Data
 on:
   schedule: 
     - cron: "0 0 1 * *" 
+  workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-20.04
